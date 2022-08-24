@@ -1,0 +1,101 @@
+#calendar-component {
+    height: 750px;
+    /*background-color: rgba(255,255,255,.7);*/
+}
+#calendar-component .add-new {
+    display: none;
+}
+#calendar-component .visible {
+    display: block;
+}
+#calendar-component .grey-background {
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+#calendar-component .add-new #form{
+    background: white;
+    padding: 30px;
+    width: 750px;
+    height: 90vh;
+    z-index: 10;
+    position: absolute !important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    overflow: auto;
+}
+.rbc-month-view .rbc-event {
+    height: 95px !important;
+}
+.rbc-addons-dnd .rbc-addons-dnd-row-body {
+    position: relative; }
+
+.rbc-addons-dnd .rbc-addons-dnd-drag-row {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0; }
+
+.rbc-addons-dnd .rbc-addons-dnd-over {
+    background-color: rgba(0, 0, 0, 0.3); }
+
+.rbc-addons-dnd .rbc-event {
+    transition: opacity 150ms; }
+.rbc-addons-dnd .rbc-event:hover .rbc-addons-dnd-resize-ns-icon, .rbc-addons-dnd .rbc-event:hover .rbc-addons-dnd-resize-ew-icon {
+    display: block; }
+
+.rbc-addons-dnd .rbc-addons-dnd-dragged-event {
+    opacity: 0; }
+
+.rbc-addons-dnd.rbc-addons-dnd-is-dragging .rbc-event:not(.rbc-addons-dnd-dragged-event):not(.rbc-addons-dnd-drag-preview) {
+    opacity: .50; }
+
+.rbc-addons-dnd .rbc-addons-dnd-resizable {
+    position: relative;
+    width: 100%;
+    height: 100%; }
+
+.rbc-addons-dnd .rbc-addons-dnd-resize-ns-anchor {
+    width: 100%;
+    text-align: center;
+    position: absolute; }
+.rbc-addons-dnd .rbc-addons-dnd-resize-ns-anchor:first-child {
+    top: 0; }
+.rbc-addons-dnd .rbc-addons-dnd-resize-ns-anchor:last-child {
+    bottom: 0; }
+.rbc-addons-dnd .rbc-addons-dnd-resize-ns-anchor .rbc-addons-dnd-resize-ns-icon {
+    display: none;
+    border-top: 3px double;
+    margin: 0 auto;
+    width: 10px;
+    cursor: ns-resize; }
+
+.rbc-addons-dnd .rbc-addons-dnd-resize-ew-anchor {
+    position: absolute;
+    top: 4px;
+    bottom: 0; }
+.rbc-addons-dnd .rbc-addons-dnd-resize-ew-anchor:first-child {
+    left: 0; }
+.rbc-addons-dnd .rbc-addons-dnd-resize-ew-anchor:last-child {
+    right: 0; }
+.rbc-addons-dnd .rbc-addons-dnd-resize-ew-anchor .rbc-addons-dnd-resize-ew-icon {
+    display: none;
+    border-left: 3px double;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 10px;
+    cursor: ew-resize; }
+#calendar-filter .field{
+    width: 300px;
+    margin-right: 10px;
+}
+#calendar-filter button {
+    height: 42px;
+}

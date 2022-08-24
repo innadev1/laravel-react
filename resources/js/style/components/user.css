@@ -1,0 +1,12 @@
+.field-name {
+    font-weight: bold;
+    width: -webkit-fill-available;
+}
+.user-input {
+    border: none;
+    text-align: right;
+    width: -webkit-fill-available;
+}
+.user-input:focus {
+    outline: none;
+}

@@ -1,0 +1,18 @@
+body {
+    background-image: url(../images/enlabs_logo_secondary_lightgrey.svg);
+    background-attachment: fixed;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.btn.btn-outline-success {
+    color: #38c172;
+    border-color: #38c172;
+}
+.btn.btn-outline-dark {
+    color: #343a40;
+    border-color: #343a40;
+}
+.btn.btn-outline-success:hover, .btn.btn-outline-dark:hover {
+    color: white;
+}

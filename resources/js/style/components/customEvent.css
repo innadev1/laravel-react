@@ -1,0 +1,29 @@
+.rbc-month-view .actions,
+.rbc-time-view .actions
+{
+    position: absolute;
+    right: 0;
+    flex-direction: column;
+}
+.rbc-agenda-view .actions {
+    display: none !important;
+}
+#custom-event .actions .icon {
+    font-size: 13px;
+    line-height: 1.3;
+}
+#custom-event .actions .in-progress {
+    color: black;
+}
+#custom-event .event-information div {
+    margin-right: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#custom-event .event-information .event-data {
+    font-size: 13px;
+    padding: 4px 0;
+}
+#custom-event .event-information .time-zone-data {
+    font-size: 10px;
+}

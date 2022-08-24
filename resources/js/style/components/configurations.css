@@ -1,0 +1,15 @@
+.configurations-input {
+    border: none;
+    text-align: left;
+    padding: 3px;
+    width: 100px;
+}
+.configurations-input:focus {
+    outline: none;
+}
+.configurations-save {
+    margin-top: 10px !important;
+}
+.span-input input {
+    border: none !important;
+}

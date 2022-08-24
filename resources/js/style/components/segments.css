@@ -1,0 +1,45 @@
+#segments .content, #segments .accordion {
+    padding: 0;
+    margin: 0;
+}
+#segments .folder {
+    margin-left: 15px;
+}
+#segments .folder .add-folder {
+    font-size: 12px;
+    font-weight: 500;
+    color: #425A70;
+}
+#segments .accordion.ui .title, #segments .folder-settings {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#segments .settings-icons {
+    display: none;
+    font-size: 10px;
+    color: gray;
+}
+#segments .settings-icons svg {
+    margin-right: 8px;
+    cursor: pointer;
+}
+#segments .move-folder {
+    cursor: move;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    margin: 0.5em 0.5em;
+}
+#segments .accordion.ui .title:hover > .settings-icons {
+    display: block;
+}
+#segments .folder-settings:hover > .settings-icons {
+    display: block;
+}
+#segments .accordion.ui .title:hover > .move-folder {
+    opacity: 1;
+}
+#segments .folder-settings:hover > .move-folder {
+    opacity: 1;
+}
